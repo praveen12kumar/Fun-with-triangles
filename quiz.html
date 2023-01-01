@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/quiz.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Triangle Quiz</h1>
+        <form action="" class="quiz-form">
+            <ol class="list">
+                <li class="question">
+                <p>What is the third angle for this triangle where
+                    angle1 = 45&deg and angle2 = 45&deg?
+                </p>
+                <label for=""><input type="radio" name="question1" value="45"><span class="span">45&deg</span></label>
+                <label for=""><input type="radio" name="question1" value="60"><span class="span">60&deg</span></label>
+                <label for=""><input type="radio" name="question1" value="90"><span class="span">90&deg</span></label>
+                <label for=""><input type="radio" name="question1" value="35"><span class="span">35&deg</span></label>
+                </li>
+
+                <li class="question">
+                <p>If a triangle has an angle of 90&deg, what is it called? 
+                </p>
+                <label for=""><input type="radio" name="question2" value="acute"> <span class="span">acute</span></label>
+                <label for=""><input type="radio" name="question2" value="obtuse"><span class="span">obtuse</span></label>
+                <label for=""><input type="radio" name="question2" value="right"><span class="span">right</span></label>
+                <label for=""><input type="radio" name="question2" value="reflex"><span class="span">reflex</span></label>
+                </li>
+
+                <li class="question">
+                    <p>What is the third angle for this triangle where
+                        angle1 = 45&deg and angle2 = 45&deg?
+                    </p>
+                    <label for=""><input type="radio" name="question3" value="45"><span class="span">45&deg</span></label>
+                    <label for=""><input type="radio" name="question3" value="60"><span class="span">60&deg</span></label>
+                    <label for=""><input type="radio" name="question3" value="90"><span class="span">90&deg</span></label>
+                    <label for=""><input type="radio" name="question3" value="35"><span class="span">35&deg</span></label>
+                    </li>
+            </ol>
+        </form>
+        <button class="btn" type="submit">Submit</button>
+    </div>
+    <div id="output"></div>
+    <script src="/quiz.js"></script>
+</body>
+</html>

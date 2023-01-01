@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 236, 243);
+    font-family: roboto;
+}
+
+.container{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 8rem auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2)0px 5px 15px;
+}
+
+.container h1{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+#angle{
+    font-size: 1.2rem;
+    margin: 12px 0;
+    text-transform: capitalize;
+}
+
+.container input{
+    width: 150px;
+    font-size: 1.2rem;
+    padding: 0px 0 0 10px;
+    letter-spacing: 0.2rem;
+}
+
+.btn{
+    margin-top: 18px;
+    font-size: 1.3rem;
+    padding: 7px 18px;
+    border: none;
+    background-color:cornflowerblue;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.btn:hover{
+    color: cornflowerblue;
+    background-color: #fff;
+    border: 2px solid cornflowerblue ;
+}
+
+#output{
+    height: 40px;
+    width: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 25px 0px;
+    font-size: 1.5rem;
+    padding-top:5px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-family: roboto;
+}
+
+/* ////////////////////////////////////////////////////////////////
+//--------Hypotenuse--------------*/
+.hypotenuse-container{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 8rem auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2)0px 5px 15px;
+}
+.hypotenuse-container h2{
+    font-size: 2.5rem;
+    margin: 15px 0px;
+}
+
+.hypotenuse-container .label{
+    margin: 10px 0px;
+    font-size: 1.4rem;
+}
+
+.hypotenuse-container input{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid cornflowerblue;
+}
+
+.output{
+    margin: 15px 0 0 0;
+    font-size: 1.5rem;
+
+}
+
+/*=========== Area of a Triangle========*/
+.container .area-heading{
+    margin: 3rem 0px;
+    font-size: 2.5rem;
+    color: rgb(39, 36, 36);
+}
+
+.formula{
+    background-color: rgb(70, 106, 174);
+    height: 40px;
+    font-size: 1.3rem;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.area-base, .area-height{
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.area-input{
+    border: 2px solid rgb(70, 106, 174);
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.area-btn{
+    margin-top: 18px;
+    font-size: 1.3rem;
+    padding: 7px 10px;
+    border: none;
+    background-color:cornflowerblue;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.area-btn:hover{
+    color: cornflowerblue;
+    background-color: #fff;
+    border: 2px solid cornflowerblue ;
+}
+
+.area-output{
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+
