@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/quiz.css">
+    <script src="https://kit.fontawesome.com/4b77934f69.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navigation">
+        <div class="nav-brand">
+          <h1>Fun With Triangles</h1>
+        </div>
+        <ul class="list-non-bullet nav-pills nav-list">
+          <li class="list-item-inline a">
+            <a class="link" href="/">Check Triangle</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="/quiz.html">Quiz</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="/hypotenuse.html">Check Hypotenuse</a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="/area.html">Area of Triangle</a>
+          </li>
+        </ul>
+      </nav>
+
     <div class="container" id="container">
         <h1>Triangle Quiz</h1>
         <form action="" class="quiz-form">
@@ -32,19 +54,56 @@
                 </li>
 
                 <li class="question">
-                    <p>What is the third angle for this triangle where
-                        angle1 = 45&deg and angle2 = 45&deg?
+                    <p>What is the name of the segment that joins the midpoints of the sides 
+                        of a triangle?
                     </p>
-                    <label for=""><input type="radio" name="question3" value="45"><span class="span">45&deg</span></label>
-                    <label for=""><input type="radio" name="question3" value="60"><span class="span">60&deg</span></label>
-                    <label for=""><input type="radio" name="question3" value="90"><span class="span">90&deg</span></label>
-                    <label for=""><input type="radio" name="question3" value="35"><span class="span">35&deg</span></label>
+                    <label for=""><input type="radio" name="question3" value="Median"><span class="span">Median</span></label>
+                    <label for=""><input type="radio" name="question3" value="Midsegment"><span class="span">Midsegment</span></label>
+                    <label for=""><input type="radio" name="question3" value="Vertex"><span class="span">Vertex</span></label>
+                    <label for=""><input type="radio" name="question3" value="Centroid"><span class="span">Centroid</span></label>
                     </li>
             </ol>
         </form>
         <button class="btn" type="submit">Submit</button>
+        <div id="quiz-output"></div>
     </div>
-    <div id="output"></div>
+    
+
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+            <a class="social-media link" href="https://github.com/praveen12kumar"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="social-media list-item-inline">
+            <a class="link" href="https://twitter.com/neogcamp"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li class="social-media list-item-inline">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/praveen-kumar-88644bbb/"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-media list-item-inline">
+            <a class="link" href="https://www.linkedin.com/company/neog-camp/">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+  
+          <li class="social-media list-item-inline">
+            <a class="link" href="https://www.instagram.com/kumarpraveen1/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+  
     <script src="/quiz.js"></script>
 </body>
 </html>

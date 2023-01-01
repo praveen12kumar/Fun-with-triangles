@@ -10,13 +10,57 @@ body{
     font-family: roboto;
 }
 
+.navigation{
+    height: 70px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation .nav-brand h1{
+    color: #fff;
+    font-size: 2.5rem;
+    padding-left:  15px;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+  }
+  
+  .navigation .link {
+    color: white;
+  }
+  
+  .navigation .link-active {
+    font-weight: bold;
+  }
+
+  .list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+
+  }
+  
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+    text-decoration:none;
+  }
+
+  .list-item-inline a{
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+
 .container{
     width: 45vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin: 8rem auto;
+    margin: 3rem auto;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.2)0px 5px 15px;
 }
@@ -75,11 +119,11 @@ body{
 //--------Hypotenuse--------------*/
 .hypotenuse-container{
     width: 45vw;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin: 8rem auto;
+    margin: 4rem auto;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.2)0px 5px 15px;
 }
@@ -152,5 +196,42 @@ body{
     margin-top: 15px;
     font-size: 1.2rem;
 }
+
+
+
+/** footers **/
+
+.footer {
+    background-color:cornflowerblue;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer .link {
+    color: white;
+  }
+  
+  .footer-header{
+    padding-bottom: 1rem;
+  }
+  
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }
+  
+  .social-media{
+    font-size: 1.5rem;
+  }
+  
 
 

@@ -1,9 +1,9 @@
 console.log("Hello");
 
 const submitButton = document.querySelector(".btn");
-const outputDiv = document.querySelector("#output");
+const outputDiv = document.querySelector("#quiz-output");
 const quizForm = document.querySelector(".quiz-form");
-const correctAnswers = ["90", "right", "90"];
+const correctAnswers = ["90", "right", "Centroid"];
 
 submitButton.addEventListener("click", calculateScore);
 
