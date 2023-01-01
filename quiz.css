@@ -41,6 +41,7 @@ body{
 .list li input{
     width: 60px;
     align-items: center;
+    border: 10px;
 }
 
 .btn{
@@ -62,8 +63,10 @@ body{
 
 #quiz-output{
     width: 200px;
-    height: 70px;
+    height: 40px;
     font-size:1.4rem;
     padding:20px;
+    border: 1px solid cornflowerblue;
     text-align: center;
+    border-radius: 10px;
 }

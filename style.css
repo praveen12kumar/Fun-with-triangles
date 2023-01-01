@@ -83,6 +83,8 @@ body{
     font-size: 1.2rem;
     padding: 0px 0 0 10px;
     letter-spacing: 0.2rem;
+    border-radius: 10px;
+    border: 1px solid cornflowerblue;
 }
 
 .btn{
@@ -93,7 +95,6 @@ body{
     background-color:cornflowerblue;
     color: #fff;
     border-radius: 10px;
-
 }
 
 .btn:hover{
@@ -104,9 +105,9 @@ body{
 
 #output{
     height: 40px;
-    width: 300px;
-    background-color: antiquewhite;
+    width: 200px;
     text-align: center;
+    border: 1px solid cornflowerblue;
     margin: 25px 0px;
     font-size: 1.5rem;
     padding-top:5px;
@@ -141,12 +142,16 @@ body{
     padding: 5px;
     margin-left: 10px;
     border: 1px solid cornflowerblue;
+    border-radius: 10px;
 }
 
 .output{
+    height: 40px;
+    width: 200px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
     margin: 15px 0 0 0;
     font-size: 1.5rem;
-
 }
 
 /*=========== Area of a Triangle========*/
@@ -193,6 +198,10 @@ body{
 }
 
 .area-output{
+    height: 40px;
+    width: 200px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
     margin-top: 15px;
     font-size: 1.2rem;
 }
